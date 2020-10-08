@@ -190,7 +190,7 @@ export default class MarkdownEditor extends React.PureComponent<IMarkdownEditor,
       value = '[连接说明](连接地址 "连接标题")';
     }
     if (type === 'image') {
-      value = selection ? `${selection} ![](图片地址 "图片描述")` : '![图片描述](图片地址 "图片描述")\n';
+      value = selection ? `${selection} ![](url_da_imagem.png")` : '![descricao da imagem](url_da_imagem.png")\n';
     }
     if (type === 'quote') {
       value = selection ? `> ${selection}` : '> ';
